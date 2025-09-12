@@ -81,11 +81,15 @@ section h2 {
 }
 
 /* About Section */
+#about {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 #about img {
   max-width: 200px;
   border-radius: 50%;
   display: block;
-  margin-top: 1rem;
 }
 
 /* Projects Section */
